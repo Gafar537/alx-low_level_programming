@@ -5,14 +5,14 @@
  *
  * Return: Always 0.
  */
+
 int main(void)
 {
-		char letter;
+	char letter;
 
-		for (letter = 'z'; letter >= 'a'; letter--)
-				putchar(letter);
+	for (letter = 'z'; letter >= 'a'; letter--)
+		putchar(letter);
 
-		putchar('\n');
-
-		return (0);
+	putchar('\n');
+	return (0);
 }
