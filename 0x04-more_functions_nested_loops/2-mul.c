@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -10,7 +11,10 @@
 int mul(int a, int b);
 {
 	int a;
+
 	int b;
+
 	c = a*b;
+
 	return (c);
 }
